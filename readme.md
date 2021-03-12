@@ -1,3 +1,5 @@
+**Here is an example code of how to call the components**
+```
 @component('components.bootstrap.modal', [
     'id'        => 'office-add-calendar-events-modal',
     'title'     => __('Add Appointent'),
@@ -14,3 +16,4 @@
     {{-- Modal Body can be defined here --}}
 
 @endcomponent
+```
